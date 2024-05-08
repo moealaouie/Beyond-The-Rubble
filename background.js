@@ -1,10 +1,3 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     var images = ['images/background1.png', 'images/background2.jpg'];
-//     var index = Math.floor(Math.random() * images.length);
-//     document.body.style.backgroundImage = 'url(' + images[index] + ')';
-// });
-
-
 document.addEventListener('DOMContentLoaded', function() {
     var images = ['images/background1.jpg', 'images/background2.jpg', 'images/background3.jpg'];
     var lastIndex = parseInt(localStorage.getItem('lastImageIndex'), 10);
